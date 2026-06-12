@@ -141,14 +141,14 @@ function EmployeeCard({ employee, index }) {
       {/* Top accent line */}
       <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-brand-blue to-brand-cyan opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-      {/* Photo area */}
-      <div className="relative w-full aspect-[4/3] overflow-hidden bg-brand-alt">
+      {/* Photo area — portrait ratio so full body is visible */}
+      <div className="relative w-full aspect-[3/4] overflow-hidden bg-brand-alt">
         {employee.photo ? (
           <img
             src={employee.photo}
             alt={`${employee.name} – ${employee.department}`}
             loading="lazy"
-            className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+            className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
           />
         ) : (
           <AvatarFallback name={employee.name} />
@@ -195,12 +195,12 @@ function EmployeeCard({ employee, index }) {
           <span>{employee.phone}</span>
         </a>
 
-        {/* Action buttons row */}
-        <div className="flex gap-2">
+        {/* Action buttons row — flex-wrap keeps both buttons on small screens */}
+        <div className="flex flex-wrap gap-2">
           {/* Call button */}
           <a
             href={employee.telLink}
-            className="flex-1 flex items-center justify-center gap-1.5 py-2 px-3 bg-gradient-to-r from-brand-blue to-brand-cyan text-white text-xs font-semibold rounded-full shadow-md shadow-brand-blue/15 hover:shadow-lg hover:shadow-brand-blue/25 hover:-translate-y-0.5 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-blue focus-visible:ring-offset-2"
+            className="flex-1 min-w-[90px] flex items-center justify-center gap-1.5 py-2.5 px-3 bg-gradient-to-r from-brand-blue to-brand-cyan text-white text-xs font-semibold rounded-full shadow-md shadow-brand-blue/15 hover:shadow-lg hover:shadow-brand-blue/25 hover:-translate-y-0.5 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-blue focus-visible:ring-offset-2"
             aria-label={`Call ${employee.name}`}
           >
             <Phone className="w-3.5 h-3.5 shrink-0" />
@@ -212,7 +212,7 @@ function EmployeeCard({ employee, index }) {
             href={employee.whatsapp}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-1.5 py-2 px-3 bg-[#25D366] text-white text-xs font-semibold rounded-full shadow-md shadow-emerald-500/15 hover:shadow-lg hover:shadow-emerald-500/25 hover:-translate-y-0.5 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
+            className="flex-1 min-w-[90px] flex items-center justify-center gap-1.5 py-2.5 px-3 bg-[#25D366] text-white text-xs font-semibold rounded-full shadow-md shadow-emerald-500/15 hover:shadow-lg hover:shadow-emerald-500/25 hover:-translate-y-0.5 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
             aria-label={`WhatsApp ${employee.name}`}
           >
             <WhatsAppIcon className="w-3.5 h-3.5 shrink-0" />
