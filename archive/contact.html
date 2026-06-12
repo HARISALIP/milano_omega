@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in Touch with Milano General Trading. Contact us for import, export, logistics, and trading inquiries.">
+    <title>Contact Us - Milano Trading Solutions</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS CSS for scroll animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom Style Sheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <div class="logo-icon">M</div>
+                <div class="logo-text">
+                    <span>MILANO</span>
+                    <span class="logo-sub">Trading Solutions</span>
+                </div>
+            </a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#milanoNavbar" aria-controls="milanoNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="milanoNavbar">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="contact.html" class="btn-custom btn-custom-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Intro Header -->
+    <header class="page-intro" data-aos="fade-down">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p>Have questions about our services? We are here to help. Contact us today and let's discuss how we can support your trading business.</p>
+        </div>
+    </header>
+
+    <!-- Contact Info Cards Grid -->
+    <section class="py-5" style="background-color: var(--bg-alt);">
+        <div class="container py-4">
+            <div class="row g-4">
+                <!-- Address Card -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-info-card">
+                        <div class="info-icon">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <h4>Address</h4>
+                        <p>Ajman, United Arab Emirates</p>
+                        <p class="text-muted">P.O. Box: 20405</p>
+                    </div>
+                </div>
+
+                <!-- Phone Card -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-info-card">
+                        <div class="info-icon">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <h4>Phone</h4>
+                        <p><a href="tel:+971625389886">+971 6 2538 9886</a></p>
+                        <p><a href="tel:+971555389886" class="text-muted">+971 55 5389 886</a></p>
+                    </div>
+                </div>
+
+                <!-- Email Card -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="contact-info-card">
+                        <div class="info-icon">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p><a href="mailto:info@milanotrade.com">info@milanotrade.com</a></p>
+                        <p><a href="mailto:sales@milanotrade.com" class="text-muted">sales@milanotrade.com</a></p>
+                    </div>
+                </div>
+
+                <!-- Business Hours Card -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="contact-info-card">
+                        <div class="info-icon">
+                            <i class="bi bi-clock"></i>
+                        </div>
+                        <h4>Business Hours</h4>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p class="text-muted">Saturday: 10:00 AM - 2:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Sidebar info section -->
+    <section class="py-5">
+        <div class="container py-4">
+            <div class="row g-5">
+                <!-- Form Side -->
+                <div class="col-lg-7" data-aos="fade-right">
+                    <div class="contact-form-container">
+                        <h3 class="mb-4" style="font-weight: 700; color: var(--primary-blue);">Send us a Message</h3>
+                        <form id="milanoContactForm" class="needs-validation" novalidate>
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <label for="inputName" class="form-label">Name *</label>
+                                    <input type="text" class="form-control" id="inputName" placeholder="Your name" required>
+                                    <div class="invalid-feedback">Please enter your name.</div>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="inputEmail" class="form-label">Email *</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="your@email.com" required>
+                                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <label for="inputPhone" class="form-label">Phone</label>
+                                    <input type="tel" class="form-control" id="inputPhone" placeholder="+971 XX XXX XXXX">
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="inputCompany" class="form-label">Company</label>
+                                    <input type="text" class="form-control" id="inputCompany" placeholder="Your company">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="selectSubject" class="form-label">Subject</label>
+                                <select class="form-select" id="selectSubject">
+                                    <option value="" selected disabled>Select a subject</option>
+                                    <option value="General Inquiry">General Inquiry</option>
+                                    <option value="Import/Export">Import / Export Solutions</option>
+                                    <option value="Logistics & Distribution">Logistics & Distribution</option>
+                                    <option value="Wholesale Trading">Wholesale Trading</option>
+                                    <option value="Consulting">Market Consulting</option>
+                                    <option value="Other">Other Inquiry</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <label for="inputMessage" class="form-label">Message *</label>
+                                <textarea class="form-control" id="inputMessage" rows="5" placeholder="Tell us about your trading needs..." required></textarea>
+                                <div class="invalid-feedback">Please type in your trading inquiry/message.</div>
+                            </div>
+
+                            <button type="submit" class="btn-custom btn-custom-primary w-100 py-3 justify-content-center">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Info Side -->
+                <div class="col-lg-5" data-aos="fade-left">
+                    <div class="ps-lg-4">
+                        <h3 class="mb-4" style="font-weight: 700; color: var(--primary-blue);">Why Contact Us?</h3>
+                        <ul class="list-unstyled mb-5">
+                            <li class="d-flex align-items-start gap-3 mb-3">
+                                <i class="bi bi-check-circle-fill text-success mt-1" style="font-size: 1.1rem;"></i>
+                                <div>
+                                    <h5 class="mb-1" style="font-size: 1rem; font-weight: 600;">Expert guidance on trading opportunities</h5>
+                                    <p class="text-muted mb-0" style="font-size: 0.85rem;">Benefit from our extensive global network and domain experts.</p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start gap-3 mb-3">
+                                <i class="bi bi-check-circle-fill text-success mt-1" style="font-size: 1.1rem;"></i>
+                                <div>
+                                    <h5 class="mb-1" style="font-size: 1rem; font-weight: 600;">Customized solutions for your business</h5>
+                                    <p class="text-muted mb-0" style="font-size: 0.85rem;">Tailored logistics and trade support designed to fit your operations.</p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start gap-3 mb-3">
+                                <i class="bi bi-check-circle-fill text-success mt-1" style="font-size: 1.1rem;"></i>
+                                <div>
+                                    <h5 class="mb-1" style="font-size: 1rem; font-weight: 600;">Competitive pricing and flexible terms</h5>
+                                    <p class="text-muted mb-0" style="font-size: 0.85rem;">Cost-efficient product sourcing and delivery strategies.</p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start gap-3 mb-3">
+                                <i class="bi bi-check-circle-fill text-success mt-1" style="font-size: 1.1rem;"></i>
+                                <div>
+                                    <h5 class="mb-1" style="font-size: 1rem; font-weight: 600;">Fast response and professional support</h5>
+                                    <p class="text-muted mb-0" style="font-size: 0.85rem;">Round-the-clock attention to your orders and paperwork details.</p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start gap-3">
+                                <i class="bi bi-check-circle-fill text-success mt-1" style="font-size: 1.1rem;"></i>
+                                <div>
+                                    <h5 class="mb-1" style="font-size: 1rem; font-weight: 600;">Proven track record of success</h5>
+                                    <p class="text-muted mb-0" style="font-size: 0.85rem;">Delivering trading services across the UAE since 2004.</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="quick-response-card shadow-sm border">
+                            <h4 style="font-weight: 700; color: var(--primary-blue);"><i class="bi bi-lightning-charge-fill me-2 text-warning"></i> Quick Response</h4>
+                            <p>We typically respond to inquiries within 24 hours during business days. For urgent matters, please call us directly.</p>
+                            <a href="tel:+971625389886" class="call-now-btn">
+                                <i class="bi bi-telephone-outbound-fill"></i> Call Now: +971 6 2538 9886
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <a class="navbar-brand text-white mb-3" href="index.html">
+                        <div class="logo-icon">M</div>
+                        <div class="logo-text">
+                            <span class="text-white">MILANO</span>
+                            <span class="logo-sub">Trading Solutions</span>
+                        </div>
+                    </a>
+                    <p class="mt-3">Global trading solutions delivering excellence and innovation across the UAE and beyond.</p>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h5>Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Import/Export</a></li>
+                        <li><a href="services.html">Distribution</a></li>
+                        <li><a href="services.html">Logistics</a></li>
+                        <li><a href="services.html">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h5>Contact</h5>
+                    <ul class="contact-info-list">
+                        <li>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>Ajman, UAE, P.O. Box: 20405</span>
+                        </li>
+                        <li>
+                            <i class="bi bi-telephone-fill"></i>
+                            <span>+971 6 2538 9886</span>
+                        </li>
+                        <li>
+                            <i class="bi bi-envelope-fill"></i>
+                            <span>info@milanotrade.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-3">
+                <p class="mb-0">&copy; 2026 Milano General Trading L.L.C. All rights reserved.</p>
+                <div class="d-flex gap-3">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (with Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS for animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom Main Script -->
+    <script src="js/main.js"></script>
+</body>
+</html>
