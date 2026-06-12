@@ -6,12 +6,12 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#051422] text-white/70 pt-20 pb-8 text-[0.88rem] border-t border-white/5">
+    <footer className="bg-[#051422] text-white/70 pt-12 md:pt-20 pb-8 text-[0.88rem] border-t border-white/5">
       <div className="max-w-7xl mx-auto px-6 md:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-8">
           
-          {/* Logo & Intro Column */}
-          <div className="flex flex-col gap-4">
+          {/* Logo & Intro Column — full-width on mobile */}
+          <div className="col-span-2 lg:col-span-1 flex flex-col gap-4">
             <Link to="/" className="flex items-center gap-3">
               <div className="w-[38px] h-[38px] bg-gradient-to-br from-brand-blue to-brand-cyan text-white rounded-lg flex items-center justify-center font-bold text-lg shadow-md">
                 M
@@ -87,8 +87,8 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Details Column */}
-          <div>
+          {/* Contact Details Column — full-width on mobile */}
+          <div className="col-span-2 lg:col-span-1">
             <h5 className="text-white font-semibold text-base mb-6">Contact</h5>
             <ul className="flex flex-col gap-4">
               <li className="flex items-start gap-3">
