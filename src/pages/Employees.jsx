@@ -166,7 +166,7 @@ function EmployeeCard({ employee, index }) {
 
         {/* Malayalam name (secondary) */}
         {employee.malayalam && (
-          <p className="text-[0.7rem] text-brand-textMuted mt-0.5 leading-tight">
+          <p className="font-ml text-[0.7rem] text-brand-textMuted mt-0.5 leading-tight">
             {employee.malayalam}
           </p>
         )}
@@ -177,7 +177,7 @@ function EmployeeCard({ employee, index }) {
             {employee.department}
           </span>
           {employee.departmentMl && (
-            <p className="text-[0.65rem] text-brand-textMuted mt-1.5 leading-tight">
+            <p className="font-ml text-[0.65rem] text-brand-textMuted mt-1.5 leading-tight">
               {employee.departmentMl}
             </p>
           )}
