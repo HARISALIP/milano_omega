@@ -48,6 +48,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link to="/employees" className="hover:text-brand-cyan hover:pl-1 transition-all duration-300">
+                  Our Team
+                </Link>
+              </li>
+              <li>
                 <Link to="/contact" className="hover:text-brand-cyan hover:pl-1 transition-all duration-300">
                   Contact
                 </Link>

@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
+import Employees from './pages/Employees';
 
 // ScrollToTop component ensures that page scroll position is reset to (0,0) whenever a new route is loaded
 function ScrollToTop() {
@@ -30,6 +31,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/employees" element={<Employees />} />
           </Routes>
         </main>
         <Footer />

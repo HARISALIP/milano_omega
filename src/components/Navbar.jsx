@@ -45,7 +45,7 @@ export default function Navbar() {
         {/* Navigation Items (Desktop) */}
         <div className="hidden lg:flex items-center gap-10">
           <div className="flex items-center gap-8">
-            {['Home', 'About', 'Services', 'Contact'].map((item) => (
+            {['Home', 'About', 'Services', 'Employees', 'Contact'].map((item) => (
               <NavLink
                 key={item}
                 to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
@@ -93,7 +93,7 @@ export default function Navbar() {
         }`}
       >
         <div className="flex flex-col items-center gap-5 px-6">
-          {['Home', 'About', 'Services', 'Contact'].map((item) => (
+          {['Home', 'About', 'Services', 'Employees', 'Contact'].map((item) => (
             <NavLink
               key={item}
               to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
