@@ -83,7 +83,7 @@ const employees = [
     phone: '050 757 4271',
     telLink: 'tel:+971507574271',
     whatsapp: 'https://wa.me/971507574271',
-    photo: null, // photo not available
+    photo: '/images/Babu Milano.jpg',
   },
   {
     id: 7,
