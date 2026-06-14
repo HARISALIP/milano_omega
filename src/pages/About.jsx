@@ -29,7 +29,7 @@ export default function About() {
   ];
 
   const milestones = [
-    { year: "2004", text: "Founded Milano General Trading" },
+    { year: "2004", text: "Founded Milano General Trading LLC" },
     { year: "2010", text: "Expanded to international markets" },
     { year: "2015", text: "Established logistics hub in Ajman" },
     { year: "2020", text: "Launched digital trading platform" },
@@ -51,7 +51,7 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="text-4xl font-bold text-brand-navy mb-4 tracking-tight"
           >
-            About Milano General Trading
+            About Milano General Trading LLC
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 10 }}
@@ -59,7 +59,7 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-sm sm:text-base text-brand-textBody leading-relaxed max-w-xl mx-auto"
           >
-            A trusted name in global trading, connecting businesses and markets with innovative solutions and unwavering commitment to excellence.
+            A trusted name in UAE general trading — import &amp; export, wholesale &amp; retail supply of vegetables, gas items, household &amp; disposable goods, charcoal, pickles and more.
           </motion.p>
         </div>
       </section>
@@ -84,13 +84,13 @@ export default function About() {
                 <h2 className="text-2xl font-bold text-brand-navy">Our Story</h2>
               </div>
               <p className="lead font-medium text-brand-textHeading text-sm sm:text-base mb-4 leading-relaxed">
-                Founded in 2004, Milano General Trading emerged from a vision to revolutionize global commerce. What started as a small trading operation has grown into a comprehensive trading solutions provider serving clients across multiple continents.
+                Founded in 2004, Milano General Trading LLC emerged from a vision to build a reliable general trading company serving the UAE market. What started as a small trading operation has grown into a comprehensive supply company covering import, export, wholesale and retail — spanning vegetables, gas items, household and disposable items, charcoal, pickles and more.
               </p>
               <p className="text-brand-textBody text-xs sm:text-sm leading-relaxed mb-4">
                 Based in Ajman, UAE, we have built a reputation for reliability, expertise, and innovative approaches to trading challenges. Our team combines traditional trading wisdom with modern technology to deliver exceptional results.
               </p>
               <p className="text-brand-textBody text-xs sm:text-sm leading-relaxed mb-0">
-                Today, Milano is recognized as a leader in import/export, distribution, and logistics services, trusted by hundreds of businesses worldwide.
+                Today, Milano General Trading LLC is a recognized name in import/export, wholesale distribution, and retail supply services, trusted by hundreds of businesses across the UAE.
               </p>
             </motion.div>
 
@@ -140,7 +140,7 @@ export default function About() {
               Our Core Values
             </h2>
             <p className="text-brand-textBody leading-relaxed text-sm">
-              These principles guide every decision and interaction at Milano.
+              These principles guide every decision and interaction at Milano General Trading LLC.
             </p>
           </div>
 
@@ -181,7 +181,7 @@ export default function About() {
               Our Journey
             </h2>
             <p className="text-brand-textBody leading-relaxed text-sm">
-              Key milestones in Milano growth and evolution.
+              Key milestones in Milano General Trading LLC's growth and evolution.
             </p>
           </div>
 
@@ -236,7 +236,7 @@ export default function About() {
           <div className="max-w-xl mx-auto relative z-10">
             <h2 className="text-2xl font-bold mb-3 text-white">Let's Work Together</h2>
             <p className="text-white/80 leading-relaxed mb-6 text-xs sm:text-sm">
-              Whether you looking to expand your trading operations or need reliable logistics support, Milano is here to help.
+              Whether you're looking to source products, expand into new markets, or need a reliable general trading partner — Milano General Trading LLC is here to help.
             </p>
             <Magnetic>
               <Link 

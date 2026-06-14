@@ -104,7 +104,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-sm sm:text-base text-brand-textBody mb-6 max-w-lg leading-relaxed">
-                Connecting businesses across continents with reliable import, export, and distribution services. Your trusted partner in global commerce.
+                Your trusted partner in UAE-based general trading — import &amp; export, wholesale &amp; retail supply, vegetables, gas items, household &amp; disposable goods, charcoal, pickles and more.
               </p>
               <div className="flex flex-wrap gap-4 items-center">
                 <Magnetic>
@@ -136,7 +136,7 @@ export default function Home() {
               <div className="relative rounded-xl overflow-hidden shadow-xl border border-brand-border/60 w-full max-w-md lg:max-w-none">
                 <img 
                   src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80" 
-                  alt="Milano Container Cargo Vessel at sea" 
+                  alt="Milano General Trading LLC - cargo and supply operations" 
                   className="w-full h-auto object-cover aspect-[4/3] sm:aspect-[16/10] transition-transform duration-700 hover:scale-[1.03]"
                 />
               </div>
@@ -146,7 +146,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Choose Milano Section - Bento Grid Layout */}
+      {/* Why Choose Milano General Trading LLC Section - Bento Grid Layout */}
       <section className="py-16 bg-brand-alt border-b border-brand-border/40">
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="text-center max-w-2xl mx-auto mb-12">
@@ -154,7 +154,7 @@ export default function Home() {
               Value Proposition
             </span>
             <h2 className="text-3xl font-bold text-brand-navy mb-3">
-              Why Choose Milano?
+              Why Choose Milano General Trading LLC?
             </h2>
             <p className="text-brand-textBody leading-relaxed text-sm">
               We combine decades of trading expertise with cutting-edge technology to deliver exceptional results for our partners.
@@ -178,9 +178,9 @@ export default function Home() {
                     Active
                   </span>
                 </div>
-                <h3 className="text-xl font-bold text-brand-textHeading mb-2">Milano General Trading</h3>
+                <h3 className="text-xl font-bold text-brand-textHeading mb-2">Milano General Trading LLC</h3>
                 <p className="text-brand-textBody text-sm leading-relaxed mb-6">
-                  Providing full compliance registries, VAT clearing, and cargo manifests directly out of our Ajman headquarters. Trusted by global supply channels.
+                  Providing full-spectrum trading operations — import/export, wholesale supply, retail market sales, vegetables, gas items, household &amp; disposable items, charcoal, and food products like pickles — out of our Ajman headquarters. Trusted by clients across the UAE and beyond.
                 </p>
               </div>
               <div className="flex items-center gap-2.5 text-xs text-brand-textMuted font-mono">
@@ -295,7 +295,7 @@ export default function Home() {
               <div className="relative rounded-xl overflow-hidden shadow-lg aspect-[16/10] sm:aspect-[4/3] group border border-brand-border/40">
                 <img 
                   src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80" 
-                  alt="Milano Logistics warehouse container stacking"
+                  alt="Milano General Trading LLC - warehouse and supply operations"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
                 />
               </div>
@@ -347,7 +347,7 @@ export default function Home() {
             <div className="lg:col-span-5">
               <h2 className="text-2xl font-bold mb-2 text-white">Ready to Grow?</h2>
               <p className="text-white/80 text-xs sm:text-sm leading-relaxed">
-                Let's discuss how Milano can support your trading business.
+                Let's discuss how Milano General Trading LLC can support your business — import, export, wholesale, retail and more.
               </p>
             </div>
             

@@ -139,10 +139,10 @@ export default function Services() {
               Key Attributes
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-brand-navy mb-3">
-              Why Choose Milano Services?
+              Why Choose Milano General Trading LLC?
             </h2>
             <p className="text-brand-textBody leading-relaxed text-sm">
-              We combine expertise, technology, and dedication to deliver exceptional trading solutions.
+              We combine expertise, hands-on trading knowledge, and a wide product network to deliver reliable general trading services across the UAE.
             </p>
           </div>
 

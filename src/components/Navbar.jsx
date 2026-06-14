@@ -36,8 +36,8 @@ export default function Navbar() {
           </div>
           <div className="flex flex-col leading-none">
             <span className="text-brand-navy font-bold text-xl tracking-tight">MILANO</span>
-            <span className="text-[0.65rem] tracking-[0.15em] uppercase text-brand-blue font-semibold mt-0.5">
-              Trading Solutions
+            <span className="text-[0.62rem] tracking-[0.12em] uppercase text-brand-blue font-semibold mt-0.5">
+              General Trading LLC
             </span>
           </div>
         </Link>

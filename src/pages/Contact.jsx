@@ -312,7 +312,7 @@ export default function Contact() {
               </div>
               <h4 className="text-lg font-bold text-brand-navy mb-2">Message Sent Successfully!</h4>
               <p className="text-brand-textMuted text-xs mb-5 leading-relaxed">
-                Thank you for contacting Milano General Trading. Our commercial representatives will review your trading inquiry and respond within 24 hours.
+                Thank you for contacting Milano General Trading LLC. Our team will review your inquiry and respond within 24 hours.
               </p>
               <button 
                 onClick={() => setShowModal(false)}

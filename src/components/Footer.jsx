@@ -18,13 +18,13 @@ export default function Footer() {
               </div>
               <div className="flex flex-col leading-none">
                 <span className="text-white font-bold text-xl tracking-tight">MILANO</span>
-                <span className="text-[0.65rem] tracking-[0.15em] uppercase text-brand-cyan font-semibold mt-0.5">
-                  Trading Solutions
+                <span className="text-[0.62rem] tracking-[0.12em] uppercase text-brand-cyan font-semibold mt-0.5">
+                  General Trading LLC
                 </span>
               </div>
             </Link>
             <p className="mt-2 text-white/60 leading-relaxed">
-              Global trading solutions delivering excellence and innovation across the UAE and beyond.
+              Import, export, wholesale &amp; retail supply of vegetables, gas items, household &amp; disposable goods, charcoal, pickles and more — based in Ajman, UAE.
             </p>
           </div>
 

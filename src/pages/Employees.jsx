@@ -252,7 +252,7 @@ export default function Employees() {
             transition={{ duration: 0.5, delay: 0.05 }}
             className="text-3xl sm:text-4xl font-bold text-brand-navy mb-4 tracking-tight"
           >
-            Meet the People Behind Milano
+            Meet the People Behind Milano General Trading LLC
           </motion.h1>
 
           {/* Supporting text */}
@@ -262,7 +262,7 @@ export default function Employees() {
             transition={{ duration: 0.5, delay: 0.12 }}
             className="text-sm sm:text-base text-brand-textBody leading-relaxed max-w-xl mx-auto"
           >
-            Our dedicated team of professionals drives Milano's operations across wholesale, charcoal, vegetables, pickles, disposables, gas items, household sales, and accounts — serving customers with expertise and care every day.
+            Our dedicated team of professionals drives Milano General Trading LLC's operations across wholesale, charcoal, vegetables, pickles, disposables, gas items, household sales, and accounts — serving customers with expertise and care every day.
           </motion.p>
         </div>
       </section>
