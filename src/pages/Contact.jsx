@@ -25,10 +25,10 @@ export default function Contact() {
     },
     {
       title: "Phone",
-      desc: "+971 6 2538 9886",
-      sub: "+971 55 5389 886",
+      desc: "06 525 9745",
+      sub: "+971 6 525 9745",
       icon: <Phone className="w-5 h-5" />,
-      tel: "+971625389886"
+      tel: "+97165259745"
     },
     {
       title: "Email",
@@ -283,10 +283,10 @@ export default function Contact() {
                     We typically respond to inquiries within 24 hours during business days. For urgent matters, please call us directly.
                   </p>
                   <a 
-                    href="tel:+971625389886" 
+                    href="tel:+97165259745" 
                     className="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-blue hover:text-brand-cyan transition-colors"
                   >
-                    <PhoneCall className="w-3.5 h-3.5 shrink-0" /> Call Now: +971 6 2538 9886
+                    <PhoneCall className="w-3.5 h-3.5 shrink-0" /> Call Now: 06 525 9745
                   </a>
                 </div>
               </div>
