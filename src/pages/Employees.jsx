@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Phone } from 'lucide-react';
+import { Phone, Crown } from 'lucide-react';
 
 // WhatsApp SVG icon (inline, matching brand style)
 function WhatsAppIcon({ className }) {
@@ -17,139 +17,118 @@ function WhatsAppIcon({ className }) {
   );
 }
 
-// Employee data array
+// Employee data array — ordered by hierarchy
 const employees = [
   {
     id: 1,
-    name: 'Faisal P',
-    malayalam: 'ഫൈസൽ പി',
-    department: 'Wholesale Department',
-    departmentMl: 'ഹോൾസെയിൽ ഡിപ്പാർട്ട്മെന്റ്',
-    phone: '+971 55 204 0816',
-    telLink: 'tel:+971552040816',
-    whatsapp: 'https://wa.me/971552040816',
-    photo: '/images/Faisal P.jpg',
-  },
-  {
-    id: 2,
-    name: 'Viswan P',
-    malayalam: 'വിശ്വൻ പി',
-    department: 'Detes Department',
-    departmentMl: 'ഡീറ്റെസ് ഡിപ്പാർട്ട്മെന്റ്',
-    phone: '+971 50 173 8519',
-    telLink: 'tel:+971501738519',
-    whatsapp: 'https://wa.me/971501738519',
-    photo: '/images/Viswan P.jpg',
-  },
-  {
-    id: 3,
-    name: 'Nisarudheen',
-    malayalam: 'നിസാറുദ്ദീൻ',
-    department: 'Charcoal Department',
-    departmentMl: 'ചാർക്കോൾ ഡിപ്പാർട്ട്മെന്റ്',
-    phone: '+971 55 517 1107',
-    telLink: 'tel:+971555171107',
-    whatsapp: 'https://wa.me/971555171107',
-    photo: '/images/Nisarudheen.jpg',
-  },
-  {
-    id: 4,
-    name: 'Jashid',
-    malayalam: 'ജാഷിദ്',
-    department: 'Vegetable Department',
-    departmentMl: 'വെജിറ്റബിൾ ഡിപ്പാർട്ട്മെന്റ്',
-    phone: '+971 55 538 9886',
-    telLink: 'tel:+971555389886',
-    whatsapp: 'https://wa.me/971555389886',
-    photo: '/images/Jashid.jpg',
-  },
-  {
-    id: 5,
-    name: 'Faisal Ahmed',
-    malayalam: 'ഫൈസൽ അഹമ്മദ്',
-    department: 'Disposable Items Department',
-    departmentMl: 'ഡിസ്പോസിബിൾ ഐറ്റംസ് ഡിപ്പാർട്ട്മെന്റ്',
-    phone: '+971 55 606 8049',
-    telLink: 'tel:+971556068049',
-    whatsapp: 'https://wa.me/971556068049',
-    photo: '/images/Faisal Ahmed.jpg',
-  },
-  {
-    id: 6,
     name: 'Babu Milano',
-    malayalam: null,
+    position: 'Owner / Managing Director',
     department: 'Gas Items & Household Items Sales',
-    departmentMl: 'ഗ്യാസ് ഐറ്റംസ് & ഹൗസ്ഹോൾഡ് ഐറ്റംസ് സെയിൽസ്',
     phone: '050 757 4271',
     telLink: 'tel:+971507574271',
     whatsapp: 'https://wa.me/971507574271',
     photo: '/images/Babu Milano.jpg',
+    isOwner: true,
   },
   {
-    id: 7,
+    id: 2,
     name: 'Shafeeq',
-    malayalam: 'ഷെഫീഖ്',
+    position: 'Accountant',
     department: 'Accountant',
-    departmentMl: 'അക്കൗണ്ടന്റ്',
     phone: '+971 52 143 7774',
     telLink: 'tel:+971521437774',
     whatsapp: 'https://wa.me/971521437774',
     photo: '/images/Shafeeq.jpg',
   },
   {
-    id: 8,
-    name: 'Tajudheen',
-    malayalam: 'താജുദ്ദീൻ',
-    department: 'Pickle Department',
-    departmentMl: 'പിക്കൾ ഡിപ്പാർട്ട്മെന്റ്',
-    phone: '+971 55 857 2879',
-    telLink: 'tel:+971558572879',
-    whatsapp: 'https://wa.me/971558572879',
-    photo: '/images/Tajudheen.jpg',
+    id: 3,
+    name: 'Faisal P',
+    department: 'Wholesale Department',
+    phone: '+971 55 204 0816',
+    telLink: 'tel:+971552040816',
+    whatsapp: 'https://wa.me/971552040816',
+    photo: '/images/Faisal P.jpg',
   },
   {
-    id: 9,
+    id: 4,
     name: 'Faisal V',
-    malayalam: 'ഫൈസൽ വി',
     department: 'Vegetable Department',
-    departmentMl: 'വെജിറ്റബിൾ',
     phone: '+971 55 435 3277',
     telLink: 'tel:+971554353277',
     whatsapp: 'https://wa.me/971554353277',
     photo: '/images/Faisal V.jpg',
   },
   {
-    id: 10,
+    id: 5,
+    name: 'Muthalib',
+    department: 'Vegetable Department',
+    phone: '+971 50 205 9405',
+    telLink: 'tel:+971502059405',
+    whatsapp: 'https://wa.me/971502059405',
+    photo: '/images/Muthalib.jpg',
+  },
+  {
+    id: 6,
+    name: 'Jashid',
+    department: 'Vegetable Department',
+    phone: '+971 55 538 9886',
+    telLink: 'tel:+971555389886',
+    whatsapp: 'https://wa.me/971555389886',
+    photo: '/images/Jashid.jpg',
+  },
+  {
+    id: 7,
+    name: 'Faisal Ahmed',
+    department: 'Disposable Items Department',
+    phone: '+971 55 606 8049',
+    telLink: 'tel:+971556068049',
+    whatsapp: 'https://wa.me/971556068049',
+    photo: '/images/Faisal Ahmed.jpg',
+  },
+  {
+    id: 8,
     name: 'Ibrahim',
-    malayalam: 'ഇബ്രാഹിം',
     department: 'Disposable Items',
-    departmentMl: 'ഡിസ്പോസിബിൾ ഐറ്റംസ്',
     phone: '+971 58 193 5339',
     telLink: 'tel:+971581935339',
     whatsapp: 'https://wa.me/971581935339',
     photo: '/images/Ibrahim.jpg',
   },
   {
-    id: 11,
+    id: 9,
     name: 'Muhsin',
-    malayalam: 'മുഹ്സിൻ',
     department: 'Disposable',
-    departmentMl: 'ഡിസ്പോസിബിൾ',
     phone: '+971 52 535 0247',
     telLink: 'tel:+971525350247',
     whatsapp: 'https://wa.me/971525350247',
     photo: '/images/Muhsin.jpg',
   },
   {
+    id: 10,
+    name: 'Tajudheen',
+    department: 'Pickle Department',
+    phone: '+971 55 857 2879',
+    telLink: 'tel:+971558572879',
+    whatsapp: 'https://wa.me/971558572879',
+    photo: '/images/Tajudheen.jpg',
+  },
+  {
+    id: 11,
+    name: 'Nisarudheen',
+    department: 'Charcoal Department',
+    phone: '+971 55 517 1107',
+    telLink: 'tel:+971555171107',
+    whatsapp: 'https://wa.me/971555171107',
+    photo: '/images/Nisarudheen.jpg',
+  },
+  {
     id: 12,
-    name: 'Muthalib',
-    malayalam: 'മുത്തലിബ്',
-    department: 'Vegetable Department',
-    departmentMl: 'വെജിറ്റബിൾ',
-    phone: '+971 50 205 9405',
-    telLink: 'tel:+971502059405',
-    whatsapp: 'https://wa.me/971502059405',
-    photo: '/images/Muthalib.jpg',
+    name: 'Viswan P',
+    department: 'Detes Department',
+    phone: '+971 50 173 8519',
+    telLink: 'tel:+971501738519',
+    whatsapp: 'https://wa.me/971501738519',
+    photo: '/images/Viswan P.jpg',
   },
 ];
 
@@ -174,16 +153,36 @@ function AvatarFallback({ name }) {
 
 // Individual employee card
 function EmployeeCard({ employee, index }) {
+  const isOwner = employee.isOwner === true;
+
   return (
     <motion.article
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.4, delay: index * 0.06 }}
-      className="group relative bg-white border border-brand-border/60 rounded-2xl overflow-hidden shadow-ambient hover:shadow-ambient-hover hover:-translate-y-1.5 transition-all duration-300 flex flex-col"
+      className={
+        isOwner
+          ? 'group relative rounded-2xl overflow-hidden shadow-lg flex flex-col border-2 border-brand-blue/30 bg-gradient-to-b from-brand-blue/5 to-white hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300'
+          : 'group relative bg-white border border-brand-border/60 rounded-2xl overflow-hidden shadow-ambient hover:shadow-ambient-hover hover:-translate-y-1.5 transition-all duration-300 flex flex-col'
+      }
     >
       {/* Top accent line */}
-      <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-brand-blue to-brand-cyan opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      <div
+        className={
+          isOwner
+            ? 'absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-blue to-brand-cyan'
+            : 'absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-brand-blue to-brand-cyan opacity-0 group-hover:opacity-100 transition-opacity duration-300'
+        }
+      />
+
+      {/* Owner badge */}
+      {isOwner && (
+        <div className="absolute top-3 right-3 z-10 flex items-center gap-1 bg-brand-blue text-white text-[0.6rem] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full shadow-md">
+          <Crown className="w-2.5 h-2.5 shrink-0" />
+          Owner
+        </div>
+      )}
 
       {/* Photo area — portrait ratio so full body is visible */}
       <div className="relative w-full aspect-[3/4] overflow-hidden bg-brand-alt">
@@ -208,10 +207,10 @@ function EmployeeCard({ employee, index }) {
           {employee.name}
         </h3>
 
-        {/* Malayalam name (secondary) */}
-        {employee.malayalam && (
-          <p className="font-ml text-[0.7rem] text-brand-textMuted mt-0.5 leading-tight">
-            {employee.malayalam}
+        {/* Position label (Owner / Accountant) */}
+        {employee.position && (
+          <p className="text-[0.7rem] font-semibold text-brand-blue mt-0.5 leading-tight">
+            {employee.position}
           </p>
         )}
 
@@ -220,11 +219,6 @@ function EmployeeCard({ employee, index }) {
           <span className="inline-block px-3 py-1 rounded-full text-[0.65rem] font-semibold uppercase tracking-wider text-brand-blue bg-brand-blue/6 border border-brand-blue/10">
             {employee.department}
           </span>
-          {employee.departmentMl && (
-            <p className="font-ml text-[0.65rem] text-brand-textMuted mt-1.5 leading-tight">
-              {employee.departmentMl}
-            </p>
-          )}
         </div>
 
         {/* Spacer */}
