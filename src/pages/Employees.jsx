@@ -21,8 +21,8 @@ function WhatsAppIcon({ className }) {
 
 const leader = {
   id: 1,
-  name: 'Babu Milano',
-  title: 'Founder & Managing Director',
+  name: 'Babu velladan',
+  title: 'Sales Executive',
   departments: ['Gas Items', 'Household Items Sales'],
   phone: '050 757 4271',
   telLink: 'tel:+971507574271',
