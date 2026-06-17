@@ -88,7 +88,7 @@ const employees = [
   {
     id: 8,
     name: 'Ibrahim',
-    department: 'Disposable Items',
+    department: 'Disposable Items Department',
     phone: '+971 58 193 5339',
     telLink: 'tel:+971581935339',
     whatsapp: 'https://wa.me/971581935339',
@@ -97,7 +97,7 @@ const employees = [
   {
     id: 9,
     name: 'Muhsin',
-    department: 'Disposable',
+    department: 'Disposable Items Department',
     phone: '+971 52 535 0247',
     telLink: 'tel:+971525350247',
     whatsapp: 'https://wa.me/971525350247',
@@ -124,7 +124,7 @@ const employees = [
   {
     id: 12,
     name: 'Viswan P',
-    department: 'Detes Department',
+    department: 'Dates Department',
     phone: '+971 50 173 8519',
     telLink: 'tel:+971501738519',
     whatsapp: 'https://wa.me/971501738519',
