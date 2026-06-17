@@ -103,8 +103,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-brand-cyan shrink-0" />
-                <a href="mailto:info@milanotrade.com" className="hover:text-brand-cyan transition-colors">
-                  info@milanotrade.com
+                <a href="mailto:info@milanotradingllc.com" className="hover:text-brand-cyan transition-colors">
+                  info@milanotradingllc.com
                 </a>
               </li>
             </ul>

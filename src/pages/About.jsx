@@ -110,7 +110,7 @@ export default function About() {
                     { label: "Corporate Location", val: "Ajman, United Arab Emirates" },
                     { label: "Office P.O. Box", val: "P.O. Box 20405" },
                     { label: "Contact Number", val: "+971 6 2538 9886" },
-                    { label: "Direct E-mail", val: "info@milanotrade.com" }
+                    { label: "Direct E-mail", val: "info@milanotradingllc.com" }
                   ].map((row, idx) => (
                     <li key={idx} className="flex flex-col pb-2.5 border-b border-black/5 last:border-b-0 last:pb-0">
                       <span className="text-[0.65rem] uppercase tracking-wide text-brand-textMuted font-semibold">

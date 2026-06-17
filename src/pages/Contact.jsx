@@ -32,10 +32,10 @@ export default function Contact() {
     },
     {
       title: "Email",
-      desc: "info@milanotrade.com",
-      sub: "sales@milanotrade.com",
+      desc: "info@milanotradingllc.com",
+      sub: "info@milanotradingllc.com",
       icon: <Mail className="w-5 h-5" />,
-      mail: "info@milanotrade.com"
+      mail: "info@milanotradingllc.com"
     },
     {
       title: "Business Hours",
