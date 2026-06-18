@@ -21,7 +21,7 @@ function WhatsAppIcon({ className }) {
 
 const leader = {
   id: 1,
-  name: 'Babu velladan',
+  name: 'Babu Velladan',
   title: 'Sales Executive',
   departments: ['Gas Items', 'Household Items Sales'],
   phone: '050 757 4271',
